@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.output/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Wrangler
+.wrangler/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (keep package-lock.json, ignore others)
+bun.lockb
+
+# Temporary / scratch files
+blank
+blank_*
+
+# Database backups (may contain sensitive data)
+database_backup/

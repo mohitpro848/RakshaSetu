@@ -1,0 +1,13 @@
+project_id = "qaktbrfxjqzhpmolximf"
+
+[functions.safety-chat]
+verify_jwt = false
+
+[functions.threat-analysis]
+verify_jwt = false
+
+[functions.nearby-safety]
+verify_jwt = false
+
+[functions.vision-threat]
+verify_jwt = false
